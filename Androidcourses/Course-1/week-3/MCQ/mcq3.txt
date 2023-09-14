@@ -1,0 +1,50 @@
+1.
+Question 1
+ In this exercise, which of the following parameter was passed to GridCells.Adaptive()? 
+
+1 / 1 point
+
+2 as the count of columns    
+
+
+ 140.dp as the minimum size    
+
+
+140.sp as the minimum size    
+
+Correct
+ Correct! The value accepted by the GridCells.Adaptive() is the minimum size indp.    
+
+2.
+Question 2
+ In this exercise, GridCells.Fixed() defines a grid with as many rows or columns as possible.    
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! The GridCells.Adaptive() defines a grid with as many rows or columns as possible.    
+
+3.
+Question 3
+ In this exercise, which one of the following approaches is used to populate the LazyVerticalGrid? Select all that apply.     
+
+1 / 1 point
+
+ forEachIndexed method    
+
+Correct
+ Correct! forEachIndexed provides the item and the sequential index of the item.    
+
+
+forEach
+
+
+ items method    
+
+Correct
+ Correct! The items method is used to populate multiple items to a LazyVerticalGrid.    

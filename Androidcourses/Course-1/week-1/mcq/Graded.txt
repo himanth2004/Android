@@ -1,0 +1,192 @@
+1.
+Question 1
+Imagine you are building an Android app in which you will need multiple UI elements consisting of the same structure. Which of the following is true about how you should define the composable for this UI element?
+
+1 point
+
+You should use the traditional view system instead.
+
+
+
+You should define one composable for each occurrence of the UI element. 
+
+
+
+You should ensure the composable is the root of the tree
+
+
+
+You should define the composable once in such a way that it is reusable. 
+
+
+2.
+Question 2
+How does an Activity allow the user to interact with an Android app? 
+
+1 point
+
+It allows the user to view content.
+
+
+
+It allows the app to access system resources. 
+
+
+
+It provides the window for the app's user interface and allows the user to interact with the UI elements. 
+
+
+3.
+Question 3
+ What is an XML file used for in an Android project?
+
+1 point
+
+ Storing structured information
+
+
+
+ Styling a view
+
+
+
+ Defining a ViewGroup
+
+
+4.
+Question 4
+What is the Activity lifecycle?
+
+1 point
+
+A collection of callback methods
+
+
+
+A method of placing an activity’s content
+
+
+
+A function for determining the screen orientation
+
+
+
+States an activity instance goes through from start to termination
+
+
+5.
+Question 5
+Which of the following are examples of view groups? Select all that apply. 
+
+1 point
+
+RelativeLayout
+
+
+
+GridViewLayout
+
+
+
+LinearLayout
+
+
+
+FrameLayout
+
+
+6.
+Question 6
+Which of the following is the approach to building a UI Jetpack Compose is based on?
+
+1 point
+
+hierarchical
+
+
+
+object oriented
+
+
+
+imperative
+
+
+
+declarative 
+
+
+7.
+Question 7
+Which of these is a way to preview the appearance of an Android UI?
+
+1 point
+
+Use the Android Studio Debugger.
+
+
+
+Use the Android Studio Emulator.
+
+
+
+Use the Android Studio Layout Editor.
+
+
+8.
+Question 8
+When you are specifying the size of an element on an Android UI, you can use the dp unit of measurement. This term is shorthand for?
+
+1 point
+
+Dots Per Inch
+
+
+
+Density-dependent pixel
+
+
+
+Density-independent pixel
+
+
+9.
+Question 9
+Which of the following correspond to the attributes of XML elements?
+
+1 point
+
+View Subclasses
+
+
+
+Layouts
+
+
+
+Object properties
+
+
+
+View groups
+
+
+10.
+Question 10
+Which of the following are most commonly used simple layouts? Select all that apply.
+
+1 point
+
+Row
+
+
+
+Box
+
+
+
+Image
+
+
+
+Column

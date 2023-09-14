@@ -1,0 +1,222 @@
+1.
+Question 1
+Which option demonstrates the correct way to initialize an object in Kotlin? 
+
+1 / 1 point
+
+object CustomObject { }
+
+
+object CustomObject( ) { }
+
+
+object CustomObject( )
+
+Correct
+Correct! You use a block enclosed by a pair of curly braces that represent the object’s body.
+
+2.
+Question 2
+Which option represents the correct way to call the function getNumberOfWheels defined in the object below:
+
+1234
+object Car { fun getNumberOfWheels() = 4} 
+object Car {
+ fun getNumberOfWheels() = 4
+}
+
+
+1 / 1 point
+
+println(Car().getNumberOfWheels())
+
+
+println(Car.getNumberOfWheels)
+
+
+println(Car.getNumberOfWheels())
+
+Correct
+Correct! You access a member of an object simply by using the object’s name and the dot operator.
+
+3.
+Question 3
+What is the correct syntax to call the function printHello defined in the code below:
+
+1234567
+class Outer {    class Nested {        fun printHello() {            println("Hello")        }    }}
+class Outer {
+    class Nested {
+        fun printHello() {
+            println("Hello")
+        }
+    }
+}
+
+1 / 1 point
+
+Nested().printHello()
+
+
+Outer.Nested().printHello()
+
+
+Outer().Nested().printHello()
+
+Correct
+Correct! The nested class is accessed using the class name and the dot operator.
+
+4.
+Question 4
+What is the correct syntax to call the function printHello defined in the code below:
+
+12345678
+class Outer {    inner class Inner {        fun printHello() {            println("Hello")        }    }} 
+class Outer {
+    inner class Inner {
+        fun printHello() {
+            println("Hello")
+        }
+    }
+}
+
+
+1 / 1 point
+
+Outer().Inner().printHello()
+
+
+Inner().printHello()
+
+
+Outer.Inner().printHello()
+
+Correct
+Correct! The inner class is accessed using an instance of the outer class.
+
+5.
+Question 5
+Which of these are correct ways to access the variable wheelCount in the code below:
+
+123456
+class Car {    companion object {        val wheelCount = 4    }} 
+class Car {
+    companion object {
+        val wheelCount = 4
+    }
+}
+
+
+0 / 1 point
+
+Car.wheelCount
+
+Correct
+Correct. You can access the members of companion object using Classname.memberName and omit the word ‘Companion’ until companion object explicity states a name.
+
+
+Car().wheelCount
+
+This should not be selected
+Not quite. You don’t need an instance of a class to access its companion object.
+
+
+Car.Companion.wheelCount
+
+
+Car.companion.wheelCount
+
+This should not be selected
+Not quite. The word companion is a keyword used to define a companion object. To access a companion object of a class, use companion instead.
+
+6.
+Question 6
+When should you use a companion object in a class?
+
+1 / 1 point
+
+To define members that should not be accessible outside the class
+
+
+To define members that should be accessible by an object of a class
+
+
+To define members that should be accessible without an object of a class and only using the class name
+
+Correct
+Correct. You can access the companion object using the class name without the need to have an instance of a class.
+
+7.
+Question 7
+Which of the following keywords is used to declare a constant in Kotlin?
+
+1 / 1 point
+
+const
+
+
+final
+
+
+constant
+
+Correct
+Correct! You use the const keyword to declare a constant in Kotlin.
+
+8.
+Question 8
+Which of these is correct if you wish to navigate from an activity called SourceActivity to another activity called  DestinationActivity in Android? 
+(Assume that the Context object can be referenced using context and an instance of SourceActivity can be referenced as sourceActivity)
+
+1 / 1 point
+
+val intent = Intent(context, DestinationActivity::class.java)
+
+Correct
+Correct! You can define an intent by passing the context object and class reference of the activity to be started.
+
+
+val intent = Intent(SourceActivity::class.java, DestinationActivity::class.java)
+
+
+val intent = Intent(sourceActivity, DestinationActivity::class.java)
+
+Correct
+Correct! You can define an intent by passing the instance of calling activity (as Activity class inherits from Context class) and class reference of the activity to be started.
+
+
+val intent = Intent(DestinationActivity::class.java, sourceActivity)
+
+9.
+Question 9
+What is the right way to use the function startActivity to start an activity? 
+
+1 / 1 point
+
+Activity.startActivity(intent)
+
+
+context.startActivity(intent)
+
+
+startActivity(context, intent) 
+
+Correct
+Correct! You need to call the startActivity function using an instance of Context and pass an intent to the function.
+
+10.
+Question 10
+Which one of the below lines can you use to pass an argument to an activity? (Assume an instance of Intent can be referenced using intent variable)
+
+1 / 1 point
+
+intent.putExtra(“hello”)
+
+
+intent.getExtra(“message”, “hello”)
+
+
+intent.putExtra(“message”, “hello”)
+
+Correct
+Correct! You pass the key for the data as the first argument and its corresponding value as the second argument.

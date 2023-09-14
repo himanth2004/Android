@@ -1,0 +1,123 @@
+1.
+Question 1
+What was the output when you ran your solution?
+
+1 / 1 point
+
+[Onion, Cheese, Water, Salt]
+
+
+Onion,
+
+Cheese,
+
+ Water
+
+
+[Onion, Cheese, Water]
+
+Correct
+Correct! This is how Kotlin’s println outputs a list of strings and these are the ingredients that remain in the onion soup dish after removing salt. 
+
+2.
+Question 2
+Replace the Salt string in the removeSalt extension function with Cheese. Run the code. What is the output?
+
+1 / 1 point
+
+[Onion, Water, Salt]
+
+
+[Onion, Water]
+
+
+[Onion, Cheese, Water]
+
+Correct
+Correct! Salt is no longer removed from the list. Instead, cheese is removed. 
+
+3.
+Question 3
+Little Lemon asks you to write a new extension function to remove an ingredient (provided as a string) from a dish. Which of these extension functions will perform the requested task?
+
+1 / 1 point
+
+fun String.removeIngredient(ingredient: String) { remove(ingredient) } 
+
+
+fun String.removeIngredient(dish: Dish) { dish.ingredients.remove(this) }
+
+Correct
+Correct! This function will extend the String class with the capability of removing ingredients from a provided dish. 
+
+
+fun Dish.removeIngredient(ingredient: String) { ingredients.remove(ingredient) } 
+
+Correct
+Correct! This function will extend Dish with the capability of removing ingredients by name. 
+
+1.
+Question 1
+Which of the below can be inherited? Select all that apply.
+
+1 / 1 point
+
+An interface
+
+Correct
+Correct! Interfaces are designed to be inherited.
+
+
+A final class
+
+
+An object
+
+
+An open class
+
+Correct
+Correct! Open classes are open for extension and can be inherited.
+
+2.
+Question 2
+Extension functions can be quite useful. Which of these are benefits of extension functions? Select all that apply.
+
+1 / 1 point
+
+They can be called just like normal functions of the extended class.
+
+Correct
+Correct! Extension functions are called using the same syntax as normal functions.
+
+
+They can override existing functions of a class.
+
+
+They can access private properties and functions of the extended class.
+
+
+They allow extending final and 3rd party classes.
+
+Correct
+Correct! Extension functions let you extend behavior of classes that cannot or should not otherwise be modified.
+
+3.
+Question 3
+You are asked to implement an extension function for the final Dish class that would print out its ingredients field. How would the extension function look?
+
+1 / 1 point
+
+fun Dish.printIngredients() { println(ingredients) }
+
+
+fun List<Ingredient>.printIngredients(dish: Dish) { println(this) }
+
+
+fun Dish.printIngredients(ingredients: List<Ingredient>) { println(ingredients) }
+
+
+fun printIngredients(dish: Dish) { println(dish.ingredients) }
+
+Correct
+Correct! This is the right syntax for the requested extension function.

@@ -1,0 +1,164 @@
+1.
+Question 1
+What was the output when you ran your solution? 
+
+1 / 1 point
+
+1.33
+
+
+1.5
+
+
+1.8
+
+Correct
+Correct! This is the sales tax amount for the list of OrderItem and given sales tax percentage. 
+
+2.
+Question 2
+What is the output of the program if you add another OrderItem in the list – Ice cream (4$)?
+
+1 / 1 point
+
+1.71
+
+
+1.805
+
+
+1.9
+
+Correct
+Correct! This is the sales tax amount for the list of OrderItem and given sales tax percentage. 
+
+3.
+Question 3
+How can you call a function fun sayHello() defined within a companion object of a class ‘Greeting’? 
+
+1 / 1 point
+
+Greeting().sayHello()
+
+
+Greeting.sayHello()
+
+Correct
+Correct! You can invoke the function using the class name and the dot operator.
+
+.
+Question 1
+In the companion object of IngredientsActivity, you have a start function. In that function, you initialize an Intent. Which of the following calls did you use?
+
+1 / 1 point
+
+ val intent = Intent(context, IngredientsActivity::class)
+
+
+val intent = Intent(context, IngredientsActivity::class.java)
+
+
+val intent = Intent(IngredientsActivity::class.java , context)
+
+Correct
+Correct! The intent constructor expects a context followed by the Java class of the activity to start. 
+
+2.
+Question 2
+In the onCreate function of the IngredientsActivity class, replace the Pasta string with Pizza. Run the code and tap the Pasta button. What happens?
+
+1 / 1 point
+
+IngredientsActivity launches with the ingredients for a pizza
+
+
+IngredientsActivity launches with Unknown dish
+
+
+IngredientsActivity no longer launches.
+
+Correct
+Correct! The Pasta argument is no longer recognized by IngredientsActivity. Any unknown argument leads to Unknown dish being presented.
+
+3.
+Question 3
+Which of the following will start IngredientsActivity from MainActivity?   Select all that apply.
+
+1 / 1 point
+
+IngredientsActivity.start(this, “Pasta”)
+
+Correct
+Correct! Calling the static start function on IngredientsActivity will start this activity. 
+
+
+startActivity(Intent(this, IngredientsActivity::class.java))
+
+Correct
+Correct! You can instantiate Intent with the appropriate arguments and pass it to startActivity to start IngredientsActivity.
+
+
+startActivity(IngredientsActivity)
+
+1.
+Question 1
+RestaurantMenu is a Kotlin object with a mutable list. Which of the following statements is true? Select all that apply.  
+
+1 / 1 point
+
+An element added to the list from activity A will not be accessible from activity B
+
+
+Adding the same element from activity A or from activity B will lead to different results.
+
+
+An element added to the list from activity A will be accessible from activity B
+
+Correct
+Correct! Objects in Kotlin are singletons. Adding an element from anywhere would be reflected everywhere.
+
+
+Clearing the list from activity A will clear the list for activity B as well.
+
+Correct
+Correct! Objects in Kotlin are singletons. Any changes to the RestaurantMenu will be reflected everywhere.
+
+2.
+Question 2
+Little Lemon has only one restaurant. Which entity would best represent it?
+
+1 / 1 point
+
+Object
+
+
+Interface
+
+
+Class
+
+
+List
+
+Correct
+Correct! An object in Kotlin guarantees you will only have a single instance of Little Lemon.
+
+3.
+Question 3
+Which of the following statements about companion objects are correct?
+
+1 / 1 point
+
+A companion object is a singleton
+
+
+You can have multiple companion objects per class
+
+
+Companion objects can belong to multiple classes
+
+
+You must add a companion object for each class
+
+Correct
+Correct! Companion objects are singletons. There is only one instance of each companion object per class.

@@ -1,0 +1,153 @@
+1.
+Question 1
+In the Practice defining listeners in Android exercise, when you ran the code, what did the app show on its screen?
+
+1 / 1 point
+
+Toast message with text - Data saved
+
+
+Empty screen
+
+
+A button with text Save Data written on it.
+
+Correct
+Correct! You implemented the button code correctly in the layout file. 
+
+2.
+Question 2
+What was the result of clicking the button with text Save Data?
+
+1 / 1 point
+
+Nothing happens
+
+
+A toast message with text - Data saved appears on the screen.
+
+
+Button disappears
+
+Correct
+Correct! You implemented the click listener using a lambda expression correctly. 
+
+3.
+Question 3
+Choose the options with the correct lambda expression syntax implementation.
+
+1 / 1 point
+
+button.setOnClickListener( println(it.id) )
+
+
+button.setOnClickListener { view ->  println(view.id) }
+
+Correct
+Correct! You can define a lambda expression without the parenthesis if the only parameter is the lambda itself and then can define an arbitrary name to the lambda parameter. 
+
+
+ button.setOnClickListener { println(it.id) }
+
+Correct
+Correct! You can define a lambda expression without the parenthesis if the only parameter is the lambda itself and then can if no arbitrary name is assigned to the lambda parameter, access it using it keyword.
+
+1.
+Question 1
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+1 / 1 point
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Correct
+Correct! You can use a callable reference such as ‘::functionName’.
+
+
+Using the function name.
+
+
+Using instance of a user defined class that implements a function type as an interface.
+
+Correct
+Correct! You can instantiate a function using a defined class that implements a function type as an interface.
+
+
+Using a lambda expression.
+
+Correct
+Correct! You can use a lambda expression to instantiate a function type.
+
+2.
+Question 2
+Which of these is a syntactically valid function type?
+
+1 / 1 point
+
+(Int, Int) -> String
+
+
+(Int) -> Int, String
+
+
+Int, Int -> (String)
+
+Correct
+Correct! You define the list of parameters enclosed in a parenthesis, followed by arrow notation and the return type.
+
+3.
+Question 3
+Which of these is a correct lambda expression syntax?
+
+1 / 1 point
+
+x: Int, y: Int -> { x * y }
+
+
+x: Int, y: Int -> x * y
+
+
+{ x: Int, y: Int -> x * y }
+
+Correct
+Correct! This is the correct syntax.
+
+4.
+Question 4
+Which of these would output ‘hello world’ when the function defined below is called?
+
+123
+fun execute(string: String, function: (String) -> String) {  println(function(string))}
+fun execute(string: String, function: (String) -> String) { 
+ println(function(string))
+}
+
+1 / 1 point
+
+execute("hello") { "world" }
+
+
+execute("hello") { "$it world" }
+
+
+execute { "hello world" }
+
+Correct
+Correct! The implicit argument ‘it’ will contain the value ‘hello’ and hence concatenated string, ‘hello world’ will be printed.
+
+5.
+Question 5
+Which listener interface provided by the Android framework is used to listen for button press events?
+
+1 / 1 point
+
+View.OnPressListener
+
+
+View.OnClickListener
+
+
+View.OnTapListener
+
+Correct
+Correct! The ‘View’ class contains an interface ‘OnClickListener’ that has a method ‘onClick’ which gets called on events such as a button press.

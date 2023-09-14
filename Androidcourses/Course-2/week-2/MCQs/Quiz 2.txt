@@ -1,0 +1,50 @@
+1.
+Question 1
+How do you convert the regular function into the test function?
+
+1 / 1 point
+
+Mark the function with Test annotation.
+
+
+Mark the class where it is located with Test annotation.
+
+
+Append test_ prefix to the function name.    
+
+Correct
+Correct! Test annotation enables the function be to run as test.
+
+2.
+Question 2
+What is the correct order of AAA pattern?
+
+1 / 1 point
+
+Assert – Act – Arrange
+
+
+Arrange – Act – Assert
+
+
+Act – Arrange – Assert
+
+Correct
+Correct! First, you set up the test environment. Next, execute the operation under test and then, examine the outcome.    
+
+3.
+Question 3
+Which of three tests for Product class will fail, if you change the minimum amount for discount from 5 to 10? (Hint: update the applyDiscount function and see)  
+
+1 / 1 point
+
+Only the second test will fail.
+
+
+All tests will fail.
+
+
+The first and the second tests will fail.
+
+Correct
+Correct! The first test case still passes, as given amount for spaghetti, 3, is still less than minimum amount and it is eligible for discount, while the last test case (out of stock), is not affected by changes.   

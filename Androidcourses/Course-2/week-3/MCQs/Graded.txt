@@ -1,0 +1,255 @@
+1.
+Question 1
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+0.75 / 1 point
+
+Using instance of a user defined class that implements a function type as an interface.
+
+Correct
+Correct! You can instantiate a function using a defined class that implements a function type as an interface.
+
+
+Using the function name.
+
+This should not be selected
+Not quite. You cannot instantiate a function type by using the function name directly. Check the video item ‘Function types’ to recap on your learning.
+
+
+Using a lambda expression.
+
+Correct
+Correct! You can use a lambda expression to instantiate a function type.
+
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Correct
+Correct! You can use a callable reference such as ‘::functionName’.
+
+2.
+Question 2
+Which of these is a correct usage of lambda expression for the given function definition?
+
+123
+fun execute(number: Int, function: (Int) -> String) { println(function(number))}
+fun execute(number: Int, function: (Int) -> String) {
+ println(function(number))
+}
+
+1 / 1 point
+
+execute("Score") { "$it 100" }
+
+
+execute(100) { "Score $it" }
+
+
+execute(100) ( "Score $it" )
+
+Correct
+Correct! The above function takes in an ‘Int’ argument and then prints a string by concatenating it with the ‘Score’.
+
+3.
+Question 3
+Which of the these is a correct lambda expression syntax?
+
+1 / 1 point
+
+val difference: (Int, Int) -> Int = x: Int, y: Int -> { x - y }
+
+
+val difference: (Int, Int) -> Int = x: Int, y: Int -> x - y
+
+
+val difference: (Int, Int) -> Int = { x: Int, y: Int -> x - y }
+
+Correct
+Correct! This is the correct syntax
+
+4.
+Question 4
+Which listener interface provided by the Android framework is used to listen for a button press event?
+
+1 / 1 point
+
+View.OnPressListener
+
+
+View.OnClickListener
+
+
+View.OnTapListener
+
+Correct
+Correct! The ‘View’ class contains an interface ‘OnClickListener’ that has a method ‘onClick’ which gets called on events such as a button press.
+
+5.
+Question 5
+Which of these are higher-order functions? Select all that apply.
+
+0.75 / 1 point
+
+fun display(): (Int) -> Unit
+
+Correct
+Correct! This is a higher-order function as it returns a function.
+
+
+fun display(x: (Int) -> Unit)
+
+Correct
+Correct! This is a higher-order function as it takes another function as a parameter.
+
+
+fun display(x: Int) : Unit
+
+This should not be selected
+Not quite. This is not a higher-order function as it neither takes in a function as an input nor returns one. Please check video item ‘What is higher-order-function' to recap on your learning.
+
+
+fun display(x: (Int)) -> Unit
+
+6.
+Question 6
+What is the output of this code?
+
+
+1234567
+val number = 3var output = 2repeat(5) { index -> output += (index * number)}println(output) 
+val number = 3
+var output = 2
+repeat(5) { index ->
+ output += (index * number)
+}
+println(output)
+
+
+0 / 1 point
+
+47
+
+
+30
+
+
+32
+
+Incorrect
+You didn’t select an answer.
+7.
+Question 7
+What is the output of the following code?
+
+
+1234567
+var sum = 0 val numberList = listOf(1, 4, 6, 7, 9) numberList.forEach { number -> sum += number}println(sum)
+var sum = 0
+
+val numberList = listOf(1, 4, 6, 7, 9) 
+numberList.forEach { number ->
+ sum += number
+}
+println(sum)
+
+1 / 1 point
+
+27
+
+
+9
+
+
+1
+
+Correct
+Correct! The above code would iterate over each element and then add each element’s value to variable named ‘sum’.
+
+8.
+Question 8
+What is the output of this code:
+
+1234567891011121314
+data class Chocolate(  val flavor: String,  val price: Int ) val list = listOf(  Chocolate("Dark", 7),  Chocolate("Milk", 4),  Chocolate("Coffee", 2) )val output = list.map {  it.flavor } println(output) 
+data class Chocolate( 
+ val flavor: String, 
+ val price: Int 
+) 
+val list = listOf( 
+ Chocolate("Dark", 7), 
+ Chocolate("Milk", 4), 
+ Chocolate("Coffee", 2) 
+)
+val output = list.map { 
+
+
+1 / 1 point
+
+[Chocolate(flavor=Dark, price=7), Chocolate(flavor=Milk, price=4), Chocolate(flavor=Coffee, price=2)]
+
+
+[7, 4, 2]
+
+
+[Dark, Milk, Coffee]
+
+Correct
+Correct! The above code transforms the initial list to a new list that contains values of 'flavor’.
+
+9.
+Question 9
+What is the output of this code:
+
+1234567891011121314
+data class Chocolate(  val flavor: String,  val price: Int ) val list = listOf(  Chocolate("Dark", 7),  Chocolate("Milk", 4),  Chocolate("Coffee", 2) )val output = list.filter {  it.price > 3} println(output) 
+data class Chocolate( 
+ val flavor: String, 
+ val price: Int 
+) 
+val list = listOf( 
+ Chocolate("Dark", 7), 
+ Chocolate("Milk", 4), 
+ Chocolate("Coffee", 2) 
+)
+val output = list.filter { 
+
+
+1 / 1 point
+
+[Chocolate(flavor=Dark, price=7), Chocolate(flavor=Milk, price=4), Chocolate(flavor=Coffee, price=2)]
+
+
+[Chocolate(flavor=Dark, price=7), Chocolate(flavor=Milk, price=4)]
+
+
+[Chocolate(flavor=Coffee, price=2)]
+
+Correct
+Correct! The code above filters the 'chocolate’ elements that have ‘price’ > 3, and returns a new list with only those elements that comply to the condition.
+
+10.
+Question 10
+What is the output of this code: 
+
+123456
+val list = listOf(9, 3, 1, 6) val output = list.fold(1) { x, y ->  x + y } println(output) 
+val list = listOf(9, 3, 1, 6) 
+val output = list.fold(1) { x, y -> 
+ x + y 
+} 
+println(output)
+
+
+1 / 1 point
+
+1
+
+
+18
+
+
+20
+
+Correct
+Correct! The fold function accumulates a value starting from the initial value of ‘1’ and then applies the operation to each element in the list.
+

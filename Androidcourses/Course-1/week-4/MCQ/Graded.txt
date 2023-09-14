@@ -1,0 +1,328 @@
+1.
+Question 1
+Which of the following contains styles for buttons, lists, grids, images and many other composables?
+
+1 point
+
+material components
+
+
+
+composables
+
+
+
+Theme
+
+
+
+UI elements
+
+
+2.
+Question 2
+What do the characters FF represent in the following hexadecimal value?
+
+0xFF000000
+
+1 point
+
+The red color
+
+
+
+the alpha channel 
+
+
+
+the blue color 
+
+
+
+the green color
+
+
+3.
+Question 3
+Which of the following correctly creates a text composable with the font set to a size of 30?
+
+1 point
+
+
+12345
+Text(    text = “Hello World!”,    size = 30.sp) 
+Text(
+    text = “Hello World!”,
+    size = 30.sp
+)
+
+
+
+
+
+12345
+Text(    text = “Hello World!”,    fontSize = 30.sp) 
+Text(
+    text = “Hello World!”,
+    fontSize = 30.sp
+)
+
+
+
+
+
+12345
+Text(    text = “Hello World!”,    font = 30.sp) 
+Text(
+    text = “Hello World!”,
+    font = 30.sp
+)
+
+
+
+
+
+12345
+Text(    text = “Hello World!”,    fontSize = 30.dp) 
+Text(
+    text = “Hello World!”,
+    fontSize = 30.dp
+)
+
+
+
+4.
+Question 4
+What will be the output of the following code?
+
+
+
+1 point
+
+The letter H has black color and the text “ello” has black color.
+
+
+
+The letter “H” has black color and the text “ello” has blue color.
+
+
+
+The letter “H” has blue color and the text “ello” has black color.
+
+
+
+The letter “H” has blue color and the text “ello” has blue color.
+
+
+5.
+Question 5
+Which of the following modifiers will specify the size of a Surface and make it visible?
+
+1 point
+
+wrapContentSize
+
+
+
+fillMaxSize
+
+
+
+padding
+
+
+
+border
+
+
+6.
+Question 6
+Which of the following is an optional modifier that can be used to specify the weight of a text within a Text composable?
+
+1 point
+
+fontSize
+
+
+
+weight
+
+
+
+fontWeight
+
+
+
+font
+
+
+7.
+Question 7
+Which of the following is the correct way to align a Surface content of a Text composable to the top left of the screen?
+
+1 point
+
+
+1234567891011
+Surface(    modifier = Modifier        .fillMaxSize()) {    Text(        text = “Hello World!”,        fontSize = 30.sp,        modifier = Alignment.TopStart)        )} 
+Surface(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Alignment.TopStart)
+        )
+}
+
+
+
+
+
+123456789
+Surface(    modifier = Modifier        .fillMaxSize()         text = “Hello World!”,        fontSize = 30.sp,        modifier = Modifier         .wrapContentSize(align = Alignment.TopStart)) 
+Surface(
+    modifier = Modifier
+        .fillMaxSize() 
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+        .wrapContentSize(align = Alignment.TopStart)
+)
+
+
+
+
+
+123456789101112
+Surface(    modifier = Modifier        .fillMaxSize()) {    Text(        text = “Hello World!”,        fontSize = 30.sp,        modifier = Modifier         .wrapContentSize(align = Alignment.TopStart)        )} 
+Surface(
+    modifier = Modifier
+        .fillMaxSize()
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+        .wrapContentSize(align = Alignment.TopStart)
+        )
+
+
+
+
+
+12345678910111213
+Surface(    modifier = Modifier        .fillMaxSize()        .wrapContentSize(align = Alignment.TopStart) ) {    Text(        text = “Hello World!”,        fontSize = 30.sp,        modifier = Modifier         )} 
+Surface(
+    modifier = Modifier
+        .fillMaxSize()
+        .wrapContentSize(align = Alignment.TopStart)
+
+) {
+    Text(
+        text = “Hello World!”,
+        fontSize = 30.sp,
+        modifier = Modifier 
+
+
+
+8.
+Question 8
+Which of the following is the composable that animates the appearance and disappearance of its content?
+
+1 point
+
+Animation
+
+
+
+Visibility
+
+
+
+VisibleAnimation
+
+
+
+AnimatedVisibility
+
+
+9.
+Question 9
+Which of the following will make the text “Hello World” slide up to disappear and slide down to disappear? 
+
+1 point
+
+
+123456789101112
+var visible by remember {    mutableStateOf(true)}Column  {    AnimatedVisibility(visible)  {        Text(text = “Hello World”)    }    Button(onClick = {  visible = !visible  })  {        Text(“Button  “)    }} 
+var visible by remember {
+    mutableStateOf(true)
+}
+Column  {
+    AnimatedVisibility(visible)  {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = {  visible = !visible  })  {
+        Text(“Button  “)
+    }
+
+
+
+
+123456789
+var visible by remember {    mutableStateOf(true)}Column {    if  (visible)  {        Text(text = “Hello World”)    }    Button(onClick = Text(“Button  “))  
+var visible by remember {
+    mutableStateOf(true)
+}
+Column {
+    if  (visible)  {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = Text(“Button  “)) 
+
+
+
+
+12345678910
+var visible by remember {    mutableStateOf(true)}Column  {    AnimatedVisibility(visible) {        Text(text = “Hello World”)    }    Button(onClick = Text(“Button“))            } 
+var visible by remember {
+    mutableStateOf(true)
+}
+Column  {
+    AnimatedVisibility(visible) {
+        Text(text = “Hello World”)
+    }
+    Button(onClick = Text(“Button“))            
+}
+
+
+
+
+12345678910111213
+var visible by remember {    mutableStateOf(true)}Column {    if  (visible)  {          Text(text = “Hello World”)    }    Button(onClick = {  visible = !visible  })  {        Text(“Button“)}} 
+var visible by remember {
+    mutableStateOf(true)
+}
+Column {
+    if  (visible)  {
+  
+        Text(text = “Hello World”)
+    }
+    Button(onClick = {  visible = !visible  })  {
+        Text(“Button“)
+
+
+
+10.
+Question 10
+True or False: You can control how long each transition will last.
+
+1 point
+
+True
+
+
+
+False

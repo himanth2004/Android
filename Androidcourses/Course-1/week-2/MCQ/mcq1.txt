@@ -1,0 +1,187 @@
+1.
+Question 1
+What was the name of the composable replaced by xxx defined in this exercise?
+
+1234567
+@Composablefun xxx() {    Column {         WeeklySpecial()        MenuDish()    } }
+@Composable
+fun xxx() {
+    Column { 
+        WeeklySpecial()
+        MenuDish()
+    } 
+}
+
+1 / 1 point
+
+MenuDish
+
+
+BottomPanel 
+
+
+LowerPanel
+
+Correct
+Correct! The Composable name was LowerPanel.
+
+2.
+Question 2
+In this exercise, Image composable loads the image from drawable using __________.
+
+                  
+
+1 / 1 point
+
+1
+drawable using painterResource()
+drawable using painterResource()
+
+
+1
+drawableResource()
+drawableResource()
+
+
+1
+resource()
+resource()
+
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.
+
+3.
+Question 3
+In this exercise, which listener was used to perform an action after the button is clicked? 
+
+1 / 1 point
+
+1
+onMouseListener
+onMouseListener
+
+
+1
+onClickListener
+onClickListener
+
+
+1
+onKeyListener 
+onKeyListener 
+
+Correct
+Correct! The onClickListener was used when button is clicked.
+
+
+1.
+Question 1
+Which of these is true for modifiers?
+
+1 / 1 point
+
+They must be provided for every composable
+
+
+They change how a composable behaves or appears.
+
+
+They change the container of a composable
+
+Correct
+That's right! Modifiers can alter the way a composable behaves or appears.
+
+2.
+Question 2
+The composable argument that would replace xxxx in the code below is known as a:
+
+fun SayHello(name: String) {
+
+   Text(
+
+        text = "Hey $name!",
+
+        xxxx = xxxx.padding(10.dp)
+
+    )
+
+}
+
+1 / 1 point
+
+Augmenter
+
+
+Compose
+
+
+Modifier
+
+Correct
+That’s correct. In Compose, each composable has an argument called a modifier, which is set when defining the modifier. 
+
+3.
+Question 3
+What is the order of precedence for modifier chaining in Android UI Development?
+
+0 / 1 point
+
+Widgets, Layout, Themes
+
+
+Layout, Themes, Widgets 
+
+
+Themes, Widgets, Layout
+
+Incorrect
+Not quite. That is not the correct modifier chaining order.
+
+4.
+Question 4
+What is the best way to handle an event in Android UI Development? 
+
+1 / 1 point
+
+Augment composables
+
+
+Use a switch statement.
+
+
+Implement an OnClickListener interface.
+
+Correct
+That’s correct. The OnClickListener interface is an Android UI development tool that allows developers to attach a listener to a View object.
+
+5.
+Question 5
+Which of these event modifiers is used when the app user presses a mouse button?
+
+1 / 1 point
+
+Shift 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the shift key.
+
+
+Action 
+
+
+Alt 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the alt key.
+
+
+Control 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the control key.
+
+
+Meta 
+
+Correct
+That's correct. This modifier is used to detect if the user is pressing the meta key.

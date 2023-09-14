@@ -1,0 +1,137 @@
+1.
+Question 1
+ In this exercise, the padding Modifier was used to properly space composables. 
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! The padding Modifier was used to properly space composables.    
+
+2.
+Question 2
+In this exercise, which callback was used to monitor the Text composable value change?
+
+1 / 1 point
+
+ 
+
+1
+onValueUpdate    
+onValueUpdate    
+
+
+1
+onTextChange
+onTextChange
+
+
+1
+onValueChange
+onValueChange
+
+Correct
+Correct! The onValueChange callback is used to monitor any changes in text state.
+
+3.
+Question 3
+In the exercise, how was the username and password retrieved from Text composable?
+
+1 / 1 point
+
+using field property
+
+
+using string property
+
+
+using text property
+
+Correct
+Correct! The text property was used to verify if the username and passwords are valid.
+
+1.
+Question 1
+Not all ‘events’ in an Android app happen due to user interaction. 
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+That's right! Most of the events happen due to user interaction within the app, but there are some events which occur without user intervention such as network connection lost, battery charge drop and download completion.
+
+2.
+Question 2
+What does 'Recomposition' in Jetpack Compose allow developers to do? 
+
+1 / 1 point
+
+Write new code without editing existing code.
+
+
+Reuse existing code 
+
+
+Refresh the UI whenever the data changes. 
+
+Correct
+That's correct! In Compose the recreation of an app UI may happen frequently and is called 'Recomposition'
+
+3.
+Question 3
+In Jetpack Compose what does the mutableStateOf function create?
+
+1 / 1 point
+
+State that can be changed over time. 
+
+
+A fixed state of data
+
+
+An immutable state of code
+
+Correct
+That’s correct. The mutableStateOf API helps to preserve the state across recompositions and the activity lifecycle.
+
+4.
+Question 4
+A composable holding and modifying its state internally is called a ____________.
+
+1 / 1 point
+
+Stateless composable
+
+
+Stateful composable
+
+
+Stateful Recomposition
+
+Correct
+That’s correct.  Stateful composable is a way of building user interfaces in Android that allows developers to define the state of their views and components.
+
+5.
+Question 5
+What is the main purpose of State Hoisting in Android UI Development? 
+
+1 / 1 point
+
+To store and restore UI states during configuration changes 
+
+
+To improve the performance of an Android application 
+
+
+To aid in debugging an application
+
+Correct
+That’s correct. State hoisting is a concept in Android UI development that allows developers to save and restore the state of their UI components.

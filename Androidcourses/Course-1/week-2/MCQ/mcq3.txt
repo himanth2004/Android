@@ -1,0 +1,50 @@
+1.
+Question 1
+In this exercise, what are the supported orientations?
+
+1 / 1 point
+
+portrait
+
+Correct
+Correct! App supports both orientations portrait and landscape.
+
+
+horizontal
+
+
+landscape
+
+Correct
+Correct! App supports both orientations portrait and landscape.
+
+2.
+Question 2
+In this exercise device orientation was retrieved using configuration.landscape property.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Not quite! The device orientation was retrieved using configuration.orientation property.
+
+3.
+Question 3
+In this exercise, how many layouts where used? 
+
+1 / 1 point
+
+three layouts
+
+
+two layouts
+
+
+one layout
+
+Correct
+Correct! Two layouts are required – one for the orientation landscape and one for portrait orientation.

@@ -1,0 +1,632 @@
+1.
+Question 1
+True or False: Android does not provide a way for the 3rd party app to start up activities belonging to other apps.
+
+1 point
+
+True
+
+
+
+False
+
+
+2.
+Question 2
+How is a Compose UI element represented?
+
+1 point
+
+Tag in the XML file
+
+
+
+AppCompatActivity
+
+
+
+View Object
+
+
+
+Special function 
+
+
+3.
+Question 3
+Which of the following composable layouts can be used in Jetpack Compose? Select all that apply. 
+
+1 point
+
+Stack
+
+
+
+Row
+
+
+
+Column
+
+
+
+Box
+
+
+4.
+Question 4
+True or False: Applying modifiers to a composable in different order may produce a different result. 
+
+1 point
+
+True
+
+
+
+False
+
+
+5.
+Question 5
+What is Recomposition?
+
+1 point
+
+*B: Recomposition is when composable functions are called to update after the state value changes..
+
+
+
+After the state value change, the composable functions are recreating the view UI.
+
+
+
+Recomposition is before the state value is changed and the composable functions are called to update the UI.
+
+
+6.
+Question 6
+Which of the following are part of Jetpack navigation?
+
+Select all that apply. 
+
+1 point
+
+NavController
+
+
+
+NavGraph
+
+
+
+NavCompose
+
+
+
+NavHost
+
+
+7.
+Question 7
+True or False: Lazy components only compose a subset of composables that are visible in viewport rather than composing it all at once. 
+
+1 point
+
+True
+
+
+
+False
+
+
+8.
+Question 8
+What do the last two characters of the hexadecimal ARGB colors represent? 
+
+
+alt=0x00000000
+
+0x00000000
+
+
+1 point
+
+The value of alpha channel.
+
+
+
+The value of blue color.
+
+
+
+The value of red color.
+
+
+
+The value of the green color.
+
+
+
+The value of Black color.
+
+
+9.
+Question 9
+What numeric system is used to represent the ARGB color format?
+
+F2500FF1
+
+1 point
+
+Octal number system
+
+
+
+Binary number system
+
+
+
+Hexadecimal number system 
+
+
+
+Decimal number system
+
+
+10.
+Question 10
+What is the output of the following code?
+
+12345678910
+ var visible by remember {     mutableStateOf(true) } Column {     AnimatedVisibility(visible = visible) {     Text(text = "Hello, world!") } Button(onClick = { visible = !visible }) {     Text("Button ")     } } 
+ var visible by remember { 
+    mutableStateOf(true) 
+} Column { 
+    AnimatedVisibility(visible = visible) { 
+    Text(text = "Hello, world!") 
+} Button(onClick = { visible = !visible }) { 
+    Text("Button ") 
+    } 
+}
+
+
+1 point
+
+The first Button click will instantly show the Text and the following Button click will have no effect.
+
+
+
+The first Button click will instantly hide the Text and the following Button click will instantly show the Text.
+
+
+
+The first Button click will start the fade in animation of the Text and following Button click will start the fade out animation of the Text.
+
+
+
+The first Button click will start the fade out animation of the Text and the following Button click will start fade in animation of the Text.
+
+
+11.
+Question 11
+Which of the following best describes what an Activity is?
+
+1 point
+
+The app component that contains the user interface.
+
+
+
+Information registered in the manifest.
+
+
+
+The first screen that appears after an app has launched.
+
+
+
+The business logic present within the main() method.
+
+
+12.
+Question 12
+Which of the following is the parent class for all types of views?
+
+1 point
+
+View
+
+
+
+ViewGroup
+
+
+
+TextView
+
+
+
+ImageView
+
+
+13.
+Question 13
+Which of the following is is the state an Activity enters as soon as it becomes visible on the screen?
+
+1 point
+
+resumed
+
+
+
+created
+
+
+
+paused
+
+
+
+started.
+
+
+14.
+Question 14
+Which of the following classes are all UI elements subclasses of?
+
+1 point
+
+XML
+
+
+
+ViewGroup
+
+
+
+Activity
+
+
+
+View
+
+
+15.
+Question 15
+Which of the following is the approach used when building a user interface with Views and XML?
+
+1 point
+
+hierarchical 
+
+
+
+logical
+
+
+
+declarative
+
+
+
+imperative
+
+
+16.
+Question 16
+When writing composable functions, which of the following do you add before the start of the function definition?
+
+1 point
+
+composable
+
+
+
+@function
+
+
+
+@annotation
+
+
+
+@Composable
+
+
+17.
+Question 17
+Which of the following is a Kotlin language feature that allows developers to add metadata used to provide additional information and control the behavior of the code?
+
+1 point
+
+functions
+
+
+
+variables 
+
+
+
+annotations
+
+
+
+composables
+
+
+18.
+Question 18
+Which of the following is an invisible UI element that acts as a container to other UI elements?
+
+1 point
+
+layout
+
+
+
+column
+
+
+
+row
+
+
+
+composable
+
+
+19.
+Question 19
+Which of the following annotations allows you to preview designs built with Jetpack Compose?
+
+1 point
+
+Preview
+
+
+
+@Composable
+
+
+
+@Preview
+
+
+20.
+Question 20
+Which of the following is the correct way to use a modifier to give a Column a background color of black and fill the available space?
+
+1 point
+
+123
+Column( Modifier.fillMaxSize().background(Color(color: 0XFF000000))
+Column(
+ Modifier.fillMaxSize().background(Color(color: 0XFF000000)
+)
+
+
+
+1234
+Column( Modifier.fillMaxSize().backgroundColor(color: 0XFF000000)) 
+Column(
+ Modifier.fillMaxSize().backgroundColor(color: 0XFF000000)
+)
+
+
+
+
+123
+Column( modifier = Modifier.fillMaxSize().background(Color(color: 0XFF000000))
+Column(
+ modifier = Modifier.fillMaxSize().background(Color(color: 0XFF000000)
+)
+
+
+21.
+Question 21
+Backgreound modifier accepts what kind of object as an arugment?
+
+1 point
+
+BackgroundColor
+
+
+
+Background.color
+
+
+
+Color class
+
+
+
+Color object
+
+
+22.
+Question 22
+What are tapping or clicking a button, scrolling a list, swiping across the screen, dragging an icon and long pressing a thumbnail all examples of?
+
+1 point
+
+user actions
+
+
+
+event handlers
+
+
+
+event listeners
+
+
+
+user events
+
+
+23.
+Question 23
+Which of the following can be used to implement interaction handling in Jetpack Compose?
+
+1 point
+
+events 
+
+
+
+event modifiers
+
+
+
+clicks
+
+
+
+long presses
+
+
+24.
+Question 24
+Which of the following refers to a current snapshot or condition of a program that changed over time?
+
+1 point
+
+events
+
+
+
+activities 
+
+
+
+user interfaces
+
+
+
+state
+
+
+25.
+Question 25
+What is a Scaffold in Jetpack Compose?
+
+1 point
+
+A collection of presets. 
+
+
+
+A customizable layout.
+
+
+
+A fixed layout.
+
+
+
+A state management library.
+
+
+26.
+Question 26
+When implementing navigation in Jetpack Compose, which of the following must be created at the top of the composable hierarchy?
+
+1 point
+
+MainActivity
+
+
+
+Destination
+
+
+
+NavController
+
+
+
+NavHost
+
+
+27.
+Question 27
+Which of the following is used to define a horizontal List in Jetpack Compose?
+
+1 point
+
+Grid
+
+
+
+Row
+
+
+
+Box 
+
+
+
+Column
+
+
+28.
+Question 28
+Which of the following would you use to create a vertical scrollable List for a large or unknown number of items?
+
+1 point
+
+lazy row
+
+
+
+lazy column
+
+
+
+lazy grid
+
+
+
+lazy list
+
+
+29.
+Question 29
+Which of the following allows you to separate application design details from the UI structure and behavior?
+
+1 point
+
+material components
+
+
+
+composables
+
+
+
+themes
+
+
+
+design systems
+
+
+30.
+Question 30
+Which of the following APIs can be used to animate a value in Jetpack Compose?
+
+1 point
+
+remember API
+
+
+
+animate API
+
+
+
+animatedVisibility API
+
+
+
+animate*AsState API

@@ -1,0 +1,207 @@
+1.
+Question 1
+ In this exercise, which property of the NavHost is used to set the initial destination?     
+
+1 / 1 point
+
+startDestination
+
+
+navController
+
+
+modifier
+
+Correct
+ Correct! The startDestination is used to set the initial destination.    
+
+2.
+Question 2
+In this exercise, the composable function is used to add the routes for the for the NavHost.    
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.    
+
+3.
+Question 3
+In this exercise, which one of the following variables are created in the Destinations interface for defining the NavGraph.    
+
+1 / 1 point
+
+route
+
+
+icon
+
+
+nodes
+
+Correct
+Correct! Route is required by the composable function for defining the NavGraph.     
+
+1.
+Question 1
+ In the exercise, which property of the Scaffold do you use to add MyBottomNavigation?    
+
+1 / 1 point
+
+topBar
+
+
+bottomBar
+
+
+modifier
+
+Correct
+ Correct! The bottomBar is used to add MyBottomNavigation.    
+
+2.
+Question 2
+ In this exercise, which properties do you set for the BottomNavigationItem. Select all that apply.    
+
+1 / 1 point
+
+icon
+
+Correct
+ Correct! The icon is used to set the icon for the current item.     
+
+
+selected
+
+Correct
+ Correct! The selected parameter is used to check if the current item is selected.     
+
+
+label
+
+Correct
+ Correct! The label is used to set the label for the current item.    
+
+
+onClick
+
+Correct
+ Correct! The onClick defines what happens when the current item is clicked.     
+
+3.
+Question 3
+ In the exercise, which one of the following approaches is used to iterate the list with an index?    
+
+1 / 1 point
+
+forEachIndexed method
+
+
+forEach method
+
+Correct
+ Correct! ForEachIndexed provides the item and the sequential index of the item.    
+
+
+1.
+Question 1
+Which among the following actions can start navigation? Select all that apply.
+
+1 / 1 point
+
+Clicking a button
+
+Correct
+ Correct! Clicking a button can navigate to a new screen.    
+
+
+Clicking a tab item
+
+Correct
+Correct! Clicking a tab item can navigate to a new screen.
+
+
+Selecting an item from the list
+
+Correct
+Correct! Selecting an item from the list can open its details.
+
+2.
+Question 2
+Bottom Navigation only navigates to a new destination without showing the status of the active item.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+ Correct! Bottom Navigation navigates to a new destination by showing the status of the active item.    
+
+3.
+Question 3
+ Select all that apply. The fixed start navigation principle states that:     
+
+1 / 1 point
+
+ The application always starts from the same screen but ends with a different screen.   
+
+
+The application always ends with the same starting screen while leaving the app.
+
+Correct
+ Correct! The application always ends with the same starting screen.   
+
+
+The application always starts from the same first screen. 
+
+Correct
+ Correct! The application always starts from the same first screen.    
+
+4.
+Question 4
+The Stack works on which one of the following principles?
+
+1 / 1 point
+
+First in Last out
+
+
+Last in First out
+
+
+Last in Last out
+
+
+First in First out
+
+Correct
+Correct! The Stack works in the Last in First out principle.
+
+5.
+Question 5
+Select all that apply. 
+
+The purpose of NavHost is to:               
+
+1 / 1 point
+
+act as a container for displaying the current destination.
+
+Correct
+Correct! The NavHost acts as a container for the current destination.
+
+
+manage the Back Stack.
+
+
+take the NavController as a parameter and associate it with the NavGraph.
+
+Correct
+Correct! The NavHost takes the NavController as a parameter and associates it with the NavGraph.

@@ -1,0 +1,211 @@
+1.
+Question 1
+When defining the color resource in the exercise, what class was used?  
+
+1 / 1 point
+
+ColorYellow
+
+
+ColorCompose
+
+
+Color
+
+Correct
+That’s correct! Jetpack provides a built-in Color class to work with colors.
+
+2.
+Question 2
+What was the size of the order button?
+
+1 / 1 point
+
+200 dp
+
+
+200 sp 
+
+
+The Text size was derived from size of the text.
+
+Correct
+Correct! The Text size was derived from size of the text by using wrap content.
+
+3.
+Question 3
+Which Theme color was modified?
+
+1 / 1 point
+
+primary
+
+
+secondary
+
+
+tertiary 
+
+Correct
+Correct! The primary theme color was modified. By default, the button background color is derived from primary Theme color. 
+
+1.
+Question 1
+Theme is represented as a collection of attributes.
+
+1 / 1 point
+
+True 
+
+
+False
+
+Correct
+Correct! Theme is represented as a collection of attributes such as color, button heigh or text size.
+
+2.
+Question 2
+Modifying Button style in the theme will not change appearance of every button in the application unless theme style is overridden.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! Theme change will be applied to every screen in the application. For example, a new background color for a Button will be applied to all buttons in every application screen.
+
+3.
+Question 3
+Select all that apply.
+
+The Button height defined in app Theme can be overridden in__________:
+
+1 / 1 point
+
+Android Manifest
+
+
+Button composable
+
+Correct
+Correct! The Theme button height attribute will be overridden by attribute defined in composable.
+
+
+Button Style
+
+Correct
+Correct! The Theme button height attribute will be overridden by attribute defined in button style.
+
+4.
+Question 4
+What do these two characters of hexadecimal ARGB color represent?
+
+Hexidecimal color chart
+
+1 / 1 point
+
+Value of green color
+
+
+Value of alpha channel
+
+
+Value of blue color 
+
+
+Value of red color
+
+Correct
+Correct! This bit represents a red color value from ARGB color representation. 
+
+Hexidecimal color chart in color
+
+5.
+Question 5
+The Decimal numeric system is used to represent Android color resources.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct! The Hexidecimal numeric system is used to represent android color resources
+
+6.
+Question 6
+Which unit would you use to set text size?
+
+1 / 1 point
+
+sp (scalable pixel)
+
+
+dp (density independent pixel)
+
+
+both sp and dp can be used
+
+Correct
+Correct! Unlike the width and height of other composables which are set in density independent pixel, or dp, the text size is set in scalable pixel, also known as sp.
+
+1234
+Text( text = "My Text", fontSize = 26.sp,)
+Text(
+ text = "My Text",
+ fontSize = 26.sp,
+)
+
+7.
+Question 7
+Which arguments of text can be provided using Text composable? Select all that apply.
+
+1 / 1 point
+
+font color
+
+Correct
+Correct! Text composable allows to provide font color.
+
+
+font weight
+
+Correct
+Correct! Text composable allows to provide font weight.
+
+
+letter spacing
+
+Correct
+Correct! Text composable allows to provide letter spacing.
+
+
+font size
+
+Correct
+Correct! Text composable allows to provide font size.
+
+8.
+Question 8
+The White color is represented by __________- value in the ARGB color space.
+
+1 / 1 point
+
+ 00FF0000    
+
+
+FF000000
+
+
+ FFFFFFFF    
+
+
+ 0x00000000    
+
+Correct
+ Correct! This hexadecimal value represents a white color. The F means maximum value for each color.    

@@ -1,0 +1,215 @@
+1.
+Question 1
+For a class Rectangle, which of these represents the correct syntax for defining an extension function getWidth?
+
+1 / 1 point
+
+1
+fun Rectangle getWidth(): Int
+fun Rectangle getWidth(): Int
+
+
+1
+fun Rectangle.getWidth(): Int
+fun Rectangle.getWidth(): Int
+
+
+1
+fun getWidth<Rectangle>(): Int
+fun getWidth<Rectangle>(): Int
+
+Correct
+Correct. You use the dot operator after the class name and before the function name to define an extension function.
+
+2.
+Question 2
+For the extension function fun Rectangle.getWidth(): Int, what is the correct way to call the function in the code?
+
+1 / 1 point
+
+1
+Rectangle.getWidth()
+Rectangle.getWidth()
+
+
+1
+Rectangle().getWidth()
+Rectangle().getWidth()
+
+
+1
+getWidth(Rectangle())
+getWidth(Rectangle())
+
+Correct
+Correct. You call an extension function using an instance of the class on which the function is defined.
+
+3.
+Question 3
+Which type of testing is performed to test individual components of an application’s code logic?
+
+1 / 1 point
+
+Integration testing
+
+
+Unit testing
+
+
+End-to-end testing
+
+Correct
+Correct. Unit testing is performed to test individual components, also known as the unit under test.
+
+4.
+Question 4
+While using JUnit, which annotation is used to mark a function as a unit test?
+
+1 / 1 point
+
+@UnitTest
+
+
+@Test
+
+
+@JUnitTest
+
+Correct
+Correct. You use @Test annotation to mark a function as a test.
+
+5.
+Question 5
+When should you use mocks in your tests?
+
+0 / 1 point
+
+When you need to define a complete alternate definition of an object to be used for testing.
+
+
+When there are objects that are not to be tested but are needed because the code under test depends on them.
+
+
+When you need to test only some specific behavior of an object
+
+Incorrect
+Not quite. You can revise this topic in the 
+Using mocks
+ reading in Week 2.
+
+6.
+Question 6
+Which of these is a definition of the List collection type?
+
+1 / 1 point
+
+An unordered group of elements that cannot contain duplicate elements.
+
+
+An ordered group of elements that can contain duplicate elements.
+
+
+An unordered group of elements that can contain duplicate elements.
+
+Correct
+Correct. A List is an ordered group of elements that can contain duplicate elements.
+
+7.
+Question 7
+What is the output of the code below:
+
+123
+val numberSet = setOf(1, 8, 5, 7, 5, 2)println(numberSet) 
+val numberSet = setOf(1, 8, 5, 7, 5, 2)
+println(numberSet)
+
+
+1 / 1 point
+
+[1, 8, 5, 7, 5, 2]
+
+
+[1, 8, 5, 7, 2]
+
+
+[1, 8, 7, 2]
+
+Correct
+Correct. A set cannot contain duplicate elements.
+
+8.
+Question 8
+What is the output of the following code:
+
+123456789
+val map = mapOf( 1 to 90,  2 to 93, 3 to 91, 4 to 93, 2 to 95, 5 to 93)println(map)
+val map = mapOf(
+ 1 to 90, 
+ 2 to 93,
+ 3 to 91,
+ 4 to 93,
+ 2 to 95,
+ 5 to 93
+)
+println(map)
+
+0 / 1 point
+
+{1=90, 2=93, 3=91, 4=93, 5=93}
+
+
+{1=90, 2=95, 3=91, 4=93, 5=93}
+
+
+{1=90, 2=93, 3=91, 4=93, 2=95, 5=93}
+
+Incorrect
+Not quite. You can recap this topic in the 
+Map recap
+ reading in Week 2.
+
+9.
+Question 9
+Which of these represents the correct syntax for defining a generic class?
+
+1 / 1 point
+
+1
+class <T> Item(t: T) { }
+class <T> Item(t: T) { }
+
+
+1
+class Item<T>(t: T) { }
+class Item<T>(t: T) { }
+
+
+1
+class <T>.Item(t: T) { }
+class <T>.Item(t: T) { }
+
+Correct
+Correct. The generic parameter enclosed in the angle brackets is written after the class name.
+
+10.
+Question 10
+Which of these represents the correct syntax for defining a generic function?
+
+1 / 1 point
+
+1
+fun sampleFunction<T> (item: T) { }
+fun sampleFunction<T> (item: T) { }
+
+
+1
+fun <T> sampleFunction(item: T) { }
+fun <T> sampleFunction(item: T) { }
+
+
+1
+fun <T>.sampleFunction(item: T) { }
+fun <T>.sampleFunction(item: T) { }
+
+Correct
+Correct. Generic type parameters are placed before the name of the function.

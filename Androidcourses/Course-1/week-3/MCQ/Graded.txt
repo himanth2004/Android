@@ -1,0 +1,191 @@
+1.
+Question 1
+What is the back stack used for in Android?
+
+1 point
+
+forward navigation
+
+
+
+ backward navigation
+
+
+
+ database queries
+
+
+
+ generating routes
+
+
+2.
+Question 2
+The type of the route variable which corresponds to the destination in the navigation graph is ________ .
+
+1 point
+
+String
+
+
+
+Boolean
+
+
+
+Int
+
+
+3.
+Question 3
+True or False: The object keyword is used for creating an object without creating the class. 
+
+1 point
+
+True
+
+
+
+False
+
+
+4.
+Question 4
+Which of the following statements is true about defining a constant argument in a Destination?
+
+1 point
+
+It reduces the amount of required code.
+
+
+
+It is required.
+
+
+
+ It helps organize the arguments.
+
+
+5.
+Question 5
+In Jetpack Compose Navigation, the __________ function is used for constructing a new argument.
+
+1 point
+
+argument()
+
+
+
+navArgument()
+
+
+
+argumentNav()
+
+
+6.
+Question 6
+What is each bottom navigation element called?
+
+1 point
+
+ navigationItem
+
+
+
+ bottomNavigationItem
+
+
+
+ bottomNavItem
+
+
+7.
+Question 7
+Which of the following is used for a vertical list of an unknown number of items?
+
+1 point
+
+ LazyRow
+
+
+
+ LazyColumn
+
+
+
+ Column
+
+
+8.
+Question 8
+What is the most suitable element when you have an unknown or large number of items? Select all that apply. 
+
+1 point
+
+Row 
+
+
+
+LazyColumn
+
+
+
+LazyRow
+
+
+
+Column
+
+
+9.
+Question 9
+Imagine you have defined the ProductScreen below:
+
+ 
+
+1234567891011121314
+  @Composable  fun ProductScreen(productNumber: Int?) {     Column(         Modifier.fillMaxSize(),         verticalArrangement = Arrangement.Center,         horizontalAlignment = Alignment.CenterHorizontally     ) {         Text(             text = "Inventory Number $productNumber",             fontSize = 33.sp         )     }  } 
+  @Composable
+  fun ProductScreen(productNumber: Int?) {
+     Column(
+         Modifier.fillMaxSize(),
+         verticalArrangement = Arrangement.Center,
+         horizontalAlignment = Alignment.CenterHorizontally
+     ) {
+         Text(
+             text = "Inventory Number $productNumber",
+             fontSize = 33.sp
+
+Which part of the following code is responsible for passing the value of the navigation argument to ProductScreen?
+
+ ProductScreen(it.arguments?.getInt(Product.argProductNumber))
+
+1 point
+
+.getInt()
+
+
+
+ .argProductNumber
+
+
+
+ arguments
+
+
+10.
+Question 10
+Which of the following best describes what a NavHost is?
+
+1 point
+
+ NavHost acts as a container for displaying the current destination.
+
+
+
+NavHost is responsible for keeping track of the back stack.
+
+
+
+NavHost is a collection of navigable destinations.

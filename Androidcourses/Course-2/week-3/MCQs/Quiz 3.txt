@@ -1,0 +1,203 @@
+1.
+Question 1
+What was the sales tax amount output (up to 2 decimal places) when you ran your exercise’s code?
+
+1 / 1 point
+
+7.71
+
+
+9.59
+
+
+8.98
+
+Correct
+Correct! You correctly implemented the exercise instructions.
+
+2.
+Question 2
+What would be the sales tax output (up to 2 decimal places) if you change the month to August and the sales tax percentage to 7.5%?
+
+1 / 1 point
+
+6.38
+
+
+5.02
+
+
+4.95
+
+Correct
+Correct! You correctly implemented the exercise instructions.
+
+3.
+Question 3
+Which of the following functions does not return a List when called on an instance of List?
+
+1 / 1 point
+
+fold
+
+
+filter
+
+
+map
+
+Correct
+Correct! The fold function would return an accumulated value starting from an initial value and applying an operation to an accumulated value and each element. 
+
+1.
+Question 1
+What is the output of the following code?
+
+123456
+var sum = 0val numberList = listOf(2, 8, 3, 11) numberList.forEach { number -> sum += number}println(sum)
+var sum = 0
+val numberList = listOf(2, 8, 3, 11) 
+numberList.forEach { number ->
+ sum += number
+}
+println(sum)
+
+1 / 1 point
+
+24
+
+
+2
+
+
+11
+
+Correct
+Correct! The code would iterate over each element and then add each element’s value to a variable named sum.
+
+2.
+Question 2
+What is the output of this code:
+
+123456789101112131415
+data class Car(val color: String,val amount: Int)val list = listOf( Car("Black", 43000), Car("Red", 30000), Car("White", 36000))val output = list.map {  it.color}  println(output)
+data class Car(
+val color: String,
+val amount: Int
+)
+val list = listOf(
+ Car("Black", 43000),
+ Car("Red", 30000),
+ Car("White", 36000)
+)
+val output = list.map { 
+
+
+1 / 1 point
+
+[Car(color=Black, amount=43000), Car(color=Red, amount=30000), Car(color=White, amount=36000)]
+
+
+[Black, Red, White]
+
+
+[43000, 30000, 36000]
+
+Correct
+Correct! The code transforms the initial list into a new list that contains values of color.
+
+3.
+Question 3
+What do you expect to get as the output of this code? 
+
+123456789
+val list = listOf(1, 3, 4, 7)  val output = list.fold(3) { x, y -> x + y}  println(output)
+val list = listOf(1, 3, 4, 7)
+
+
+val output = list.fold(3) { x, y ->
+ x + y
+}
+
+
+println(output)
+
+1 / 1 point
+
+12
+
+
+3
+
+
+18
+
+Correct
+Correct! The fold function accumulates a value starting from the initial value of 3 and then applies the operation to each element in the list.
+
+4.
+Question 4
+What output would you expect for this code?
+
+1234567891011121314
+val numberMap = mapOf( 5 to 6, 3 to 2, 8 to 7, 4 to 1)val output = numberMap.map { entry -> entry.value}.filter {  it > 3}.fold(0) { x, y -> x + y}println(output)
+val numberMap = mapOf(
+ 5 to 6,
+ 3 to 2,
+ 8 to 7,
+ 4 to 1
+)
+val output = numberMap.map { entry ->
+ entry.value
+}.filter { 
+ it > 3
+
+
+1 / 1 point
+
+13
+
+
+17
+
+
+3
+
+Correct
+Correct! You correctly computed the outputs of the map, filter and fold functions in the code.
+
+5.
+Question 5
+What is the output of the code below: 
+
+12345678910111213
+data class Car( val color: String, val amount: Int ) val list = listOf(     Car("Black", 43000),     Car("Red", 30000),     Car("White", 36000) )  val output = list.filter { car ->     car.amount > 35000 } println(output) 
+data class Car( 
+val color: String, 
+val amount: Int 
+) 
+val list = listOf( 
+    Car("Black", 43000), 
+    Car("Red", 30000), 
+    Car("White", 36000) 
+)  
+val output = list.filter { car -> 
+
+
+0 / 1 point
+
+[Car(color=Black, amount=43000), Car(color=Red, amount=30000), Car(color=White, amount=36000)]
+
+
+This should not be selected
+Not quite. This code above does not print all the ‘car’ elements of the initial list. It removes the elements that do not have ‘amount’ > 35000.
+
+
+[Car(color=Red, amount=30000)]
+
+This should not be selected
+Not quite. This code does not remove ‘car’ elements from the list that have ‘amount’ > 35000. Instead, it removes the elements that do not comply with the condition.
+
+
+[Car(color=Black, amount=43000), Car(color=White, amount=36000)]
+

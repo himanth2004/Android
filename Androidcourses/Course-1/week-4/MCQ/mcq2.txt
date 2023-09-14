@@ -1,0 +1,47 @@
+1.
+Question 1
+What is the name of the composable used to add text visibility animations?
+
+1 / 1 point
+
+Visibility
+
+
+AnimatedVisibility
+
+
+visible
+
+Correct
+That’s correct. The AnimatedVisibility composable is used to add text visibility animations.
+
+2.
+Question 2
+What is  the name of the enter transition that was added to the text?
+
+1 / 1 point
+
+slide in
+
+
+fade out
+
+
+fade in
+
+Correct
+That’s correct. Fade in transition was used to show the text gradually over time.
+
+3.
+Question 3
+remember delegate preserves visible variable state during recomposition.
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+That’s correct. The remember delegate helps to preserve visible variable value after each resomposition. Without remember delegate the visible variable value would be rested after each recomposition.

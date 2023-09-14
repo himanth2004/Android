@@ -1,0 +1,116 @@
+1.
+Question 1
+When you run your solution for the exercise Defining generic classes and functions, what is the output?
+
+1 / 1 point
+
+1
+
+
+[Cheese, Cheese]
+
+
+2
+
+Correct
+Correct! Since addIngredient was called twice, contents holds two elements.
+
+2.
+Question 2
+If you replaced the type passed to newInventory from Cheese to Onion, when you run your solution, which of the following would be a valid statement?
+
+1 / 1 point
+
+cheeseInventory.addIngredient(Cheese)
+
+
+cheeseInventory.addIngredient(Onion)
+
+
+cheeseInventory.addIngredient("Onion")
+
+Correct
+Correct! After your change, the addIngredient function of cheeseInventory only accepts arguments of type Onion.
+
+3.
+Question 3
+For the code implemented in Step 2 of the exercise, which of the below statements are valid? 
+
+1 / 1 point
+
+Inventory<Flour>()
+
+Correct
+Correct! Flour implements Ingredient and is a valid generic type for Inventory. 
+
+
+Inventory<Egg>()
+
+Correct
+Correct! Egg inherits from Ingredient and is therefore a valid generic type for Inventory.
+
+
+Inventory<"Milk">()
+
+1.
+Question 1
+What operations can you perform on a MutableCollection but not on a Collection? 
+
+1 / 1 point
+
+Add an element.
+
+Correct
+Correct! You can only add an element to a MutableCollection.
+
+
+Remove an element.
+
+Correct
+Correct! You can only remove an element from a MutableCollection.
+
+
+Get a count of the elements in the collection.
+
+
+Read an element.
+
+2.
+Question 2
+Which of the following statements declares a generic class in Kotlin?
+
+1 / 1 point
+
+class GenericClass
+
+
+class GenericClass<TYPE>
+
+
+generic class GenericClass
+
+
+abstract class GenericClass
+
+Correct
+Correct! This is the right syntax for declaring a generic class.
+
+3.
+Question 3
+You need to instantiate a field named employeeNames of type List<String>. Which of the following statements is valid in Kotlin?
+
+1 / 1 point
+
+val employeeNames: List<String> = ["James", "Ella"]
+
+
+val employeeNames: List<String> = listOf("James", "Ella")
+
+
+val employeeNames: List<String> = "James, Ella"
+
+
+val employeeNames: List<String> = ("James", "Ella")
+
+Correct
+Correct! This is the correct syntax for instantiating a list of strings.

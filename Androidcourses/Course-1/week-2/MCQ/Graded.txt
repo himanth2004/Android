@@ -1,0 +1,217 @@
+1.
+Question 1
+In addition to modifying an aspect of a composable’s appearance, which of the following can modifiers also be used to modify?
+
+1 point
+
+styling
+
+
+
+padding
+
+
+
+behavior
+
+
+
+decorators
+
+
+2.
+Question 2
+How is the body of a scaffold defined?
+
+1 point
+
+as predefined properties
+
+
+
+as a trailing lambda
+
+
+
+using modifiers
+
+
+
+with a composable function
+
+
+3.
+Question 3
+ Which of the following is true when using modifiers with layouts in Jetpack Compose? 
+
+1 point
+
+Modifiers can be used to alter the size, position and other attributes of composables. 
+
+
+
+Modifiers can be used to modify the behavior of the layout. 
+
+
+
+Modifiers can be used to customize the appearance of the layout. 
+
+
+
+Modifiers can be used to completely replace the layout. 
+
+
+4.
+Question 4
+What is a recommended approach to ensure that a UI survives configuration changes when using Jetpack Compose? 
+
+1 point
+
+Use the remember{} function to save the UI state. 
+
+
+
+Use the onSaveInstanceState() function to save the UI state. 
+
+
+
+Manually recreate the UI on configuration changes. 
+
+
+
+Use the rememberSavedInstanceState() function to save the UI state.
+
+
+5.
+Question 5
+Which of the following is the correct programming term for executing a function when an event occurs?
+
+1 point
+
+handling the event
+
+
+
+listeners
+
+
+
+user action
+
+
+
+an event
+
+
+6.
+Question 6
+Which of the following is a composable in Jetpack Compose that provides a foundation for building an app?
+
+1 point
+
+AppBar
+
+
+
+Design system
+
+
+
+@Composable
+
+
+
+Scaffold
+
+
+7.
+Question 7
+What is Material Design? 
+
+1 point
+
+Material Design is a system for developing websites.
+
+
+
+Material Design is a framework for creating web applications.
+
+
+
+Material Design is a language for programming mobile applications.
+
+
+
+Material Design is a design system for developing UIs for Android applications. 
+
+
+8.
+Question 8
+Which of the following can a slot accept composable content as?
+
+1 point
+
+a Kotlin object
+
+
+
+a modifier
+
+
+
+a generic lamba
+
+
+
+a composable function
+
+
+9.
+Question 9
+Which of the following Jetpack Compose Material components can be implemented as built-in composables? Select four that apply.
+
+1 point
+
+Slider
+
+
+
+TextField
+
+
+
+Pattern
+
+
+
+Button
+
+
+
+Card
+
+
+
+Avatar
+
+
+
+10.
+Question 10
+Which of the following is a common design structure found in many apps?
+
+1 point
+
+Composables
+
+
+
+lambdas
+
+
+
+UI Patterns
+
+
+
+Slots
